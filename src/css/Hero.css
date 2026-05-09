@@ -1,6 +1,6 @@
 .profile-pic{
     width: 100%;
-    max-width: 320px;
+    max-width: 290px;
     aspect-ratio: 4 / 5;
     object-fit: cover;
     display: block;
@@ -12,7 +12,7 @@
 @media (max-width: 1000px) {
     .profile-pic{
         width: 80%;
-        max-width: 280px;
+        max-width: 260px;
         margin: 4rem auto 0;
     }
 }

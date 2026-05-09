@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 import './App.css';
 import "./css/All.css"
 import News from "./components/News.jsx";
-import SelectedAwards from "./components/SelectedAwards.jsx";
 import Visitor from "./components/Visitor.jsx";
 import Education from "./components/Education.jsx";
 import More from "./components/More.jsx";
@@ -33,7 +32,6 @@ function App() {
                         <News />
                         <Education />
                         <Internship />
-                        <SelectedAwards />
                         <More />
                     </div>
                     <Visitor />

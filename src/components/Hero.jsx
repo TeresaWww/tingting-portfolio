@@ -3,16 +3,15 @@ import face from '../assets/face.png';
 import "../css/Hero.css"
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaGoogleScholar,FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import cv from "../assets/longling_cv.pdf"
 
 function Hero() {
     const links = [
         { icon: <MdEmail />, url: "mailto:lucyling0224@gmail.com" },
         { icon: <FaGithub />, url: "https://github.com/LucyLing24" },
-        { icon: <FaGoogleScholar />, url: "https://scholar.google.com/citations?user=YOUR_ID&user=wsRlBO4AAAAJ" },
         { icon: <FaSquareXTwitter />, url: "https://x.com/LucyLing24" },
-        { icon: <FaLinkedin />, url: "https://linkedin.com/in/lucyling24" },
+        { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/twang85/" },
     ];
 
     return (
@@ -25,18 +24,18 @@ function Hero() {
                 />
                 <div className="hero-meta">
                     <div className="meta-name">Tingting Wang 王婷婷</div>
-                    Master of Interaction Design
+                    Bachelor of Informatics
                     <div className="meta-description">
-                        <div>🔮 HAI Researcher</div>
-                        <div>👩🏻‍💻 Full-stack Developer</div>
-                        <div>🧚🏻‍♀️ UX Designer</div>
+                        <div>🚀 Data & Growth Analyst</div>
+                        <div>👩🏻‍💻 AI/Product Builder</div>
+                        <div>🏸 Badminton Player</div>
                     </div>
                     <div className="meta-link">
                         <a className="meta-linkitem"
-                           href="https://lucy-ling.com"
+                           href="https://www.linkedin.com/in/twang85/"
                            target="_blank"
                            rel="noopener noreferrer"
-                        >Portfolio</a>
+                        >LinkedIn</a>
                         <a
                             className="meta-linkitem"
                             href={cv}
