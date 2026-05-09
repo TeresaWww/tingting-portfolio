@@ -5,7 +5,7 @@ function About() {
     return (
         <div className="about" id="about">
             <div className="intro-text">
-                Hi, I'm <strong>Long Ling</strong> (凌珑, aka Lucy Ling), an <strong>Interaction
+                Hi, I'm <strong>Tingting Wang</strong> (王婷婷), an <strong>Interaction
                 Design</strong> master's student in <a href="https://tjdi.tongji.edu.cn/?lang=en" target="_blank"
                                                        rel="noopener noreferrer">
                 College of Design and Innovation</a> at <a href="https://en.tongji.edu.cn" target="_blank"

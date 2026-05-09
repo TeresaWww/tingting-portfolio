@@ -46,7 +46,7 @@ export default function Visitor() {
         script.id = 'mapmyvisitors';
 
         // C. 动态构建 src，使用我们测量到的 containerWidth
-        script.src = `https://mapmyvisitors.com/map.js?cl=eee&w=${containerWidth}&t=tt&d=ltd73CyIV7t_kxjcJMTKz-L0vmQL2zhyM_ipGcOEeyA&co=ffffff&cmo=ffbed2&cmn=f42e7a&ct=acacac`;
+        script.src = `https://mapmyvisitors.com/map.js?cl=eee&w=${containerWidth}&t=tt&d=ltd73CyIV7t_kxjcJMTKz-L0vmQL2zhyM_ipGcOEeyA&co=ffffff&cmo=ffbed2&cmn=000080&ct=acacac`;
         script.async = true;
 
         // D. 注入新脚本

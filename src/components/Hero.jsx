@@ -24,7 +24,7 @@ function Hero() {
                     className="profile-pic"
                 />
                 <div className="hero-meta">
-                    <div className="meta-name">Long Ling 凌珑</div>
+                    <div className="meta-name">Tingting Wang 王婷婷</div>
                     Master of Interaction Design
                     <div className="meta-description">
                         <div>🔮 HAI Researcher</div>

@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(255, 246, 248, 0.6);
+    background: rgba(238, 242, 250, 0.72);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     z-index: 1000;
@@ -13,7 +13,7 @@
 }
 @supports (-webkit-backdrop-filter: blur(4px)) {
     .header-wrapper {
-        background-color: rgba(255, 246, 248, 0.6);
+        background-color: rgba(238, 242, 250, 0.72);
     }
 }
 
@@ -38,7 +38,7 @@
     font-style: italic;
     font-weight: 900;
     font-size: 1.2rem;
-    color: #ff9cb7;
+    color: #6B7EAE;
     letter-spacing: 0.02em;
     position: relative;
 }
@@ -53,7 +53,7 @@
     top: -0.5em;
     left: -0.14em;
     font-size: 0.8em;
-    color: #F42E7A;
+    color: #000080;
     display: inline-block;
     transform-origin: 50% 50%;
     animation: spinY2 3s linear infinite;
@@ -83,12 +83,12 @@
 }
 
 .header-nav .nav-item:hover {
-    color: #f42e7a;
+    color: #000080;
 }
 
 .header-nav .nav-item:focus {
     outline: none;
-    color: #f42e7a;
+    color: #000080;
 }
 
 /* 在按钮底部加一条 hover 下划线效果 */
@@ -97,7 +97,7 @@
     display: block;
     width: 0;
     height: 1px;
-    background: #f42e7a;
+    background: #000080;
     transition: width 0.3s ease;
     margin-top: 3px;
 }
@@ -214,7 +214,7 @@ button:active {
         align-items: center;
         gap: 0;
         padding: 0.6rem 1rem 1.2rem 1rem;
-        background: #FFF6F8;
+        background: #EEF2FA;
         opacity: 0;
         pointer-events: none;
         transition: transform 320ms cubic-bezier(.2,.9,.3,1), opacity 320ms ease;

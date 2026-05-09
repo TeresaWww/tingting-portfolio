@@ -13,7 +13,7 @@
     top: 0;
     width: 2px;
     height: 100%;
-    background: #FFBED2;
+    background: #B8C5E3;
 }
 
 .timeline-item {
@@ -34,7 +34,7 @@ a{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #F42E7A;
+    background: #000080;
     z-index: 1;
 }
 .timeline-label {
@@ -87,29 +87,6 @@ a{
     width: 100%;
 }
 
-.exp-type {
-    display: inline-block;
-    padding: 2px 0;
-    font-size: 0.6rem;
-    font-weight: 700;
-    border-radius: 9999px;
-    color: #fff;
-    width: 58px !important;
-}
-
-.exp-type.work  {
-    background-color: #FFBED2;
-    color: #fff;
-}
-.exp-type.project {
-    background-color: #bec9ff;
-    color: #ffffff;
-}
-.exp-type.research {
-    background-color: #ddbeff;
-    color: #ffffff;
-}
-
 .exp-period {
     display: flex;
     flex-direction: column;
@@ -124,12 +101,12 @@ a{
 }
 .exp-role{
     font-size: 0.8rem;
-    color: #f42e7a;
+    color: #000080;
     font-weight: 500;
     font-style: italic;
 }
 .exp-role a{
-    color: #f42e7a;
+    color: #000080;
     font-weight: bolder;
 }
 
@@ -186,8 +163,8 @@ a{
 }
 .exp-organization-name:hover {
     font-weight: 800;
-    /*text-decoration:underline  #F42E7A;*/
-    color: #ff9cb7;
+    /*text-decoration:underline  #000080;*/
+    color: #6B7EAE;
     cursor: pointer;
 }
 
@@ -225,7 +202,7 @@ a{
 .exp-details li::before,
 .exp-projects li::before {
     content: '✦';
-    color: #FFBED2;
+    color: #6B7EAE;
     position: absolute;
     left: 0;
     top: 1px;
@@ -251,7 +228,7 @@ name{
 .project-link {
     color: #242424;
     text-decoration: none;
-    /*border-bottom: 1px dotted #F42E7A;*/
+    /*border-bottom: 1px dotted #000080;*/
 }
 
 .project-link:hover {
@@ -274,7 +251,7 @@ name{
 .role-tag {
     white-space: nowrap;
     display: inline-block;
-    background-color: #FFF6F8;
+    background-color: #EEF2FA;
     color: #888;
     font-size: 0.7rem;
     padding: 0px 8px;
@@ -287,7 +264,7 @@ name{
 }
 
 .github-icon-link{
-    color:  #F42E7A;
+    color:  #000080;
     display: flex;
     justify-content: center;
     align-items: baseline;

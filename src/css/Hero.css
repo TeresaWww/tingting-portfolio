@@ -1,5 +1,10 @@
 .profile-pic{
     width: 100%;
+    max-width: 320px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
 }
 .hero-grid{
 }
@@ -7,7 +12,8 @@
 @media (max-width: 1000px) {
     .profile-pic{
         width: 80%;
-        margin-top: 4rem;
+        max-width: 280px;
+        margin: 4rem auto 0;
     }
 }
 
@@ -26,16 +32,17 @@
 .meta-description{
     margin: 1rem;
     font-size: 0.9rem;
-    /*color: #F42E7A;*/
+    /*color: #000080;*/
     color: #acacac;
 }
 .meta-linkitem{
     margin-bottom: 0.5rem;
     cursor: pointer;
-    background-color: #fff6f8;
+    background-color: #EEF2FA;
+    border: 1px solid #B8C5E3;
     border-radius: 8px;
     padding: 4px 12px;
-    color: #F42E7A;
+    color: #000080;
     font-family: 'Sigmar One', serif;
     display: flex;
     align-items: center;
@@ -59,7 +66,7 @@
 }
 .icon-link{
     font-size: 1.4rem;
-    color: #F42E7A;
+    color: #000080;
 }
 .small-text{
     color: #acacac;

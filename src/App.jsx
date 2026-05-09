@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import Publications from './components/Publications';
 import Internship from './components/Internship';
 import Footer from './components/Footer';
 import './App.css';
@@ -32,9 +31,8 @@ function App() {
                     <div style={{margin: "2rem"}}>
                         <About />
                         <News />
-                        <Publications />
-                        <Internship />
                         <Education />
+                        <Internship />
                         <SelectedAwards />
                         <More />
                     </div>

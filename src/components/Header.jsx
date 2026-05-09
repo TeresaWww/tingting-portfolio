@@ -5,9 +5,8 @@ import logo from "../assets/logo.png";
 const NAV = [
     { id: "about", label: "About" },
     { id: "news", label: "News" },
-    { id: "publications", label: "Publications" },
-    { id: "internship", label: "Internship" },
     { id: "education", label: "Education" },
+    { id: "internship", label: "Experience" },
     { id: "awards", label: "Awards" },
     { id: "more", label: "More" },
 ];
@@ -26,7 +25,7 @@ export default function Header() {
             <div className="header-container">
                 <div className="header-name">
                     <img src={logo} alt="logo" style={{ width: "36px", marginRight: 12 }} />
-                    <div className="name-main">Long L<span className="fancy-i">i</span>ng</div>
+                    <div className="name-main">Tingting W<span className="fancy-i">a</span>ng</div>
                 </div>
 
                 {/* 汉堡按钮 */}

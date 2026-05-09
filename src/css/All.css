@@ -20,12 +20,12 @@
 }
 
 .callout {
-    background-color: #FFF6F8;
+    background-color: #EEF2FA;
     border-radius: 8px;
     padding: 1rem;
     margin-top: 1rem;
     color: #242424;
-    border: 1px #FFBED2 solid;
+    border: 1px #B8C5E3 solid;
     position: relative;
 }
 .callout::after {
@@ -39,19 +39,19 @@
 
 
 strong{
-    color: #F42E7A;
+    color: #000080;
 }
 .intro-text a{
     color: #000000;
     font-style: italic;
 }
 .intro-text a:hover {
-    color: #FFBED2;
+    color: #5166A3;
 }
 
 
 .card-title{
-    color: #F42E7A;
+    color: #000080;
     font-weight: bolder;
     font-size: 1.4rem;
     font-family: 'Sigmar One', serif;
@@ -66,7 +66,7 @@ strong{
     overflow-y: auto; /* 可以下拉滚动 */
     /*border: none;*/
     padding: 6px 12px ;
-    /*background: #FFF6F8;*/
+    /*background: #EEF2FA;*/
     border-radius: 8px;
     background: #fcfcfc;
     border: 1px solid #eee;
@@ -89,7 +89,7 @@ strong{
 
 .news-time {
     font-weight: 700;
-    color: #FFBED2;
+    color: #6B7EAE;
 }
 
 .news-content {
@@ -110,14 +110,14 @@ strong{
     margin: 0.2rem 0;
 }
 .award-icon{
-    color:#FFBED2;
+    color:#6B7EAE;
 }
 .award-text{
     color: #242424;
     font-size: 0.8rem;
 }
 .award-highlight{
-    color: #F42E7A;
+    color: #000080;
 }
 
 
@@ -172,7 +172,7 @@ strong{
 
 .education-degree strong {
     font-weight: 700;
-    color: #F42E7A;
+    color: #000080;
 }
 
 .education-location {
@@ -198,7 +198,7 @@ strong{
 }
 
 .education-courses li {
-    background-color: #FFF6F8;
+    background-color: #EEF2FA;
     border-radius: 99px;
     padding: 0px 8px;
     font-size: 0.7rem;
@@ -213,9 +213,9 @@ strong{
 }
 
 .education-advisor .advisor-link {
-    color: #F42E7A; /* 导师链接的颜色 */
+    color: #000080; /* 导师链接的颜色 */
     text-decoration: none;
-    border-bottom: 1px dotted #F42E7A;
+    border-bottom: 1px dotted #000080;
 }
 
 .education-advisor .advisor-link:hover {
