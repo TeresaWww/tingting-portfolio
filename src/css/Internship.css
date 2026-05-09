@@ -209,8 +209,8 @@ a{
     font-size: 0.9em;
 }
 
-strong{
-    /*color: #242424;*/
+.timeline-content strong{
+    color: #000080;
     font-weight: bolder;
 }
 .inline-name{

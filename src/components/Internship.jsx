@@ -9,22 +9,6 @@ export default function Internship() {
     const experiences = [
         {
             organization: {
-                name: "ByteDance / Douyin",
-                link: "https://www.bytedance.com/en/",
-                logo: bd
-            },
-            period: "2025.06 - 2026.09",
-            role: "Content Operations Intern - Livestream",
-            location: "Beijing, China",
-            details: [
-                <span><span className="inline-name">Highlight:</span> Built Python and SQL pipelines to clean, merge, and analyze large-scale livestream campaign data, supporting data-driven decisions for content operations and campaign performance.</span>,
-                <span>Tracked key metrics including ad exposure, ACU revenue, fan growth, user retention, creator performance, and audience growth to help operations teams adjust campaign strategy.</span>,
-                <span>Automated streamer screening workflows with Python ETL, helping identify 100+ qualified creator leads per day and reducing manual review workload.</span>,
-                <span><span className="inline-name">Tools:</span> Python, SQL, internal dashboards, Tableau, campaign analytics, data visualization.</span>,
-            ]
-        },
-        {
-            organization: {
                 name: "Leewow",
                 link: "https://leewow.com",
                 logo: leewow
@@ -33,15 +17,31 @@ export default function Internship() {
             role: "Product Marketing & Growth Intern",
             location: "Remote",
             details: [
-                <span><span className="inline-name">Highlight:</span> Supported product marketing and social media growth strategy for an AI-powered custom merch platform.</span>,
-                <span>Researched viral trends, competitor positioning, creator-style content, and platform-specific user behavior across TikTok, Instagram, and Threads.</span>,
-                <span>Created short-form video concepts, hooks, captions, product storytelling angles, and AI visual prompts to promote customized merch use cases.</span>,
-                <span><span className="inline-name">Focus:</span> Content strategy, user growth, product marketing, social media analytics, AI-generated merch promotion.</span>,
+                <span>
+                    Supported <strong>product marketing and growth strategy</strong> for an AI-powered custom merch platform across <strong>3 social media channels</strong>. Researched viral trends, competitors, and platform-specific user behavior to design content strategies. Tested <strong>10+ AI tools</strong> to create video concepts, hooks, captions, and visual prompts that promoted custom merch use cases.
+                </span>,
+                <span><span className="inline-name">Focus:</span> Content strategy, user growth, product marketing, social media analytics.</span>,
             ]
         },
         {
             organization: {
-                name: "Beijing Qiantai Dexin Technology",
+                name: "ByteDance",
+                link: "https://www.bytedance.com/en/",
+                logo: bd
+            },
+            period: "2025.06 - 2026.09",
+            role: "Content Operations Intern - Douyin Livestream",
+            location: "Beijing, China",
+            details: [
+                <span>
+                    Supported <strong>livestream campaign strategies</strong> by building <strong>data dashboards</strong>, tracking performance, and identifying growth opportunities. <strong>Automated streamer screening</strong> to generate 100+ qualified creator leads daily and reduced manual review time by 50%. Helped livestreamers improve fan growth, revenue, and ACU, including a <strong>240% increase</strong> in peak concurrent viewers.
+                </span>,
+                <span><span className="inline-name">Tools:</span> Python, SQL, Tableau, campaign analytics, data visualization.</span>,
+            ]
+        },
+        {
+            organization: {
+                name: "Hasvide System Engineering Technology",
                 link: "#",
                 logo: hasvide
             },
@@ -49,26 +49,26 @@ export default function Internship() {
             role: "UI Development Intern",
             location: "Beijing, China",
             details: [
-                <span><span className="inline-name">Highlight:</span> Developed and refined web interfaces using JavaScript, HTML, and CSS, integrating front-end pages with Java backend APIs.</span>,
-                <span>Improved page structure, data flow, and front-end performance, reducing average page load time by around 20%.</span>,
-                <span>Worked closely with product managers and engineers in an agile team, participated in code reviews, and supported WeChat Mini Program feature updates.</span>,
-                <span><span className="inline-name">Tools:</span> JavaScript, HTML, CSS, Java APIs, WeChat Mini Program, agile development.</span>,
+                <span>
+                    Developed and refined <strong>web interfaces</strong> using JavaScript, HTML, and CSS, integrating front-end pages with <strong>Java backend APIs</strong>. Improved page structure and performance, reducing average load time by <strong>20%</strong>. Collaborated with <strong>cross-functional teams</strong> to support code reviews and WeChat Mini Program updates.
+                </span>,
+                <span><span className="inline-name">Tools:</span> JavaScript, HTML, CSS, Java APIs.</span>,
             ]
         },
         {
             organization: {
                 name: "University of Tokyo",
-                link: "https://www.u-tokyo.ac.jp/en/",
+                link: "https://developmental-robotics.jp/en/home/",
                 logo: utokyo
             },
-            period: "2024.06 - 2024.09",
-            role: "Research Assistant - ECG / HRV Analysis",
+            period: "2024.06 - 2024.07",
+            role: "Research Assistant - Simulator of Atypical Perception in ASD",
             location: "Tokyo, Japan",
             details: [
-                <span><span className="inline-name">Highlight:</span> Supported research on computational modeling and analysis of human heart rate signals related to emotional states and neurodiversity.</span>,
-                <span>Processed ECG and HRV data, extracted physiological features, improved data quality through filtering and preprocessing, and helped prepare research reports.</span>,
-                <span>Worked with AI and machine learning models including PV-RNN to simulate heart rate variability patterns and analyze emotional state classification.</span>,
-                <span><span className="inline-name">Tools:</span> Python, NeuroKit2, pyHRV, PV-RNN, Matplotlib, signal preprocessing, time-series analysis.</span>,
+                <span>
+                    Supported research on <strong>ECG/HRV analysis</strong> by processing heart rate signals, extracting physiological features, and improving data quality through filtering and preprocessing. Worked with <strong>machine learning and PV-RNN models</strong> to analyze emotional state patterns and helped prepare research reports.
+                </span>,
+                <span><span className="inline-name">Focus:</span> Healthcare AI, machine learning, hyperparameter tuning, literature review, Python, Matplotlib.</span>,
             ]
         }
     ];

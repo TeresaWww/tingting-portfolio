@@ -5,35 +5,13 @@ function About() {
     return (
         <div className="about" id="about">
             <div className="intro-text">
-                Hi, I'm <strong>Tingting Wang</strong> (王婷婷), an <strong>Interaction
-                Design</strong> master's student in <a href="https://tjdi.tongji.edu.cn/?lang=en" target="_blank"
-                                                       rel="noopener noreferrer">
-                College of Design and Innovation</a> at <a href="https://en.tongji.edu.cn" target="_blank"
-                                                           rel="noopener noreferrer">
-                Tongji University
-            </a>, with a bachelor's degree in <strong>Computer Science and Technology</strong>.
-                I am fortunate to be advised by <a href="https://www.nancao.org/" target="_blank"
-                                                   rel="noopener noreferrer">
-                Prof. Nan Cao
-            </a> at the <a href="https://idvxlab.com/" target="_blank" rel="noopener noreferrer">
-                Intelligent Big Data Visualization Lab
-            </a>, and conducting research under the supervision of <a href="https://raylc.org/" target="_blank"
-                                                                      rel="noopener noreferrer">
-                Prof. Ray LC
-            </a> at <a href="https://www.cityu.edu.hk/" target="_blank" rel="noopener noreferrer">
-                City University of Hong Kong
-            </a> and <a href="https://toby.li/" target="_blank" rel="noopener noreferrer">
-                Prof. Toby Jia-Jun Li
-            </a> at <a href="https://www.nd.edu/" target="_blank" rel="noopener noreferrer">
-                University of Notre Dame.
-            </a>
-                <br/><br/>
-                My research interests focus on <strong>human–AI interaction for supporting human creativity</strong> to
-                achieve better cognitive support and creative collaboration, by designing interaction forms and
-                generating contents that align with human intention, emotion, and cognition.
+                <span>
+                    Hi, I'm <strong>Tingting Wang</strong> (王婷婷, aka Teresa), an Informatics student at the <span className="text-emph">University of Washington</span> with a focus on <strong>Data Science</strong>. My work sits at the intersection of data, product marketing, and AI-related projects.
+                    <br /><br />
+                    I love turning trends and data into content ideas and marketing strategies that help businesses connect with users and grow. I’ve worked on building data pipelines, designing ETL workflows, tracking campaign performance, automating manual processes, and driving data-driven decisions.
+                </span>
 
-
-                <div className="callout">I am applying to PhD programs and remain open to any research assistant (RA) or collaboration opportunities. Please feel free to contact me about any potential openings <strong>: )</strong></div>
+                <div className="callout">I'm open to internship, full-time, research, and collaboration opportunities in data, AI, product, and growth. Please feel free to reach out about any potential opportunities :)</div>
             </div>
         </div>
     );

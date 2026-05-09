@@ -1,37 +1,35 @@
 import React from 'react';
 import "../css/All.css"; // 确保你的 CSS 路径正确
+import uw from "../assets/logo/uw.jpg";
+import uchicago from "../assets/logo/uchicago.png";
 
 export default function Education() {
     const education = [
         {
-            university: "Tongji University",
-            degree: "Master of Interaction Design",
-            college: "College of Design and Innovation",
-            gpa: "3.91/4, 93/100",
-            period: "2023.09 - Present",
-            location: "Shanghai, China",
+            university: "University of Washington",
+            logo: uw,
+            degree: "Bachelor of Science in Informatics - Data Science",
+            college: null,
+            gpa: "3.82/4.00",
+            period: "2022.09 - 2026.06",
+            location: "Seattle, WA",
             courses: [
-                { name: "Interaction Design", grade: 95 },
-                { name: "Collaborative Design", grade: 95 },
-                { name: "Open Design", grade: 97 },
-                { name: "Algorithm Design", grade: 98 }
-            ],
-            advisor: { name: "Prof. Nan Cao", link: null } // 可选：如果导师有个人主页，可以在link中添加
+                { name: "Database Systems", grade: null },
+                { name: "Machine Learning", grade: null },
+                { name: "Web Development", grade: null },
+                { name: "Information Architecture", grade: null },
+                { name: "Product Management", grade: null }
+            ]
         },
         {
-            university: "Soochow University",
-            degree: "Bachelor of Computer Science and Technology",
-            gpa: "3.8/4, 90/100, top5%. Graduated with honor",
-            period: "2019.09 - 2023.06",
-            location: "Suzhou, China",
-            courses: [
-                { name: "Advanced Mathematics", grade: 95 },
-                { name: "C++ Programming", grade: 98 },
-                { name: "Probability and Statistics", grade: 92 },
-                { name: "Algorithm Design", grade: 92 },
-                { name: "Linear Algebra", grade: 91 }
-            ],
-            advisor: null // 此处没有导师信息
+            university: "University of Chicago",
+            logo: uchicago,
+            degree: "Master of Science in Applied Data Science",
+            college: "Incoming Graduate Student",
+            gpa: null,
+            period: "2026.09 - Expected 2027",
+            location: "Chicago, IL",
+            courses: []
         }
     ];
 
@@ -40,7 +38,14 @@ export default function Education() {
             <div className="card-title">Education</div>
             <div className="education-list">
                 {education.map((edu, index) => (
-                    <div key={index} className="education-item">
+                    <div
+                        key={index}
+                        className="education-item"
+                        style={{ "--bg-logo": `url(${edu.logo})` }}
+                    >
+                        <div className="education-watermark" aria-hidden="true" />
+                        <div className="education-fade" aria-hidden="true" />
+                        <div className="education-inner">
 
                         <div className="education-header">
                             <h3 className="education-university">{edu.university}</h3>
@@ -64,13 +69,14 @@ export default function Education() {
                                 <ul>
                                     {edu.courses.map((course, i) => (
                                         <li key={i}>
-                                            {course.name} ({course.grade})
+                                            {course.name}
                                         </li>
                                     ))}
                                 </ul>
                             </div>
                         )}
 
+                        </div>
                     </div>
                 ))}
             </div>
