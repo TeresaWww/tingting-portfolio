@@ -213,7 +213,7 @@ strong{
     /*color: #242424;*/
     font-weight: bolder;
 }
-name{
+.inline-name{
     color: #242424;
     font-weight: bolder;
 }
@@ -242,7 +242,7 @@ name{
     gap:4px;
 
 }
-.project-roles name{
+.project-roles .inline-name{
     color: #242424;
     font-weight: bolder;
     margin-right: 4px;
