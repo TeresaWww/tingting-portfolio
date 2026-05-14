@@ -4,12 +4,11 @@ import "../css/Hero.css"
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import cv from "../assets/longling_cv.pdf"
 
 function Hero() {
     const links = [
-        { icon: <MdEmail />, url: "mailto:lucyling0224@gmail.com" },
-        { icon: <FaGithub />, url: "https://github.com/LucyLing24" },
+        { icon: <MdEmail />, url: "mailto:tingtingw085@gmail.com" },
+        { icon: <FaGithub />, url: "https://github.com/TeresaWww" },
         { icon: <FaSquareXTwitter />, url: "https://x.com/LucyLing24" },
         { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/twang85/" },
     ];
@@ -36,14 +35,6 @@ function Hero() {
                            target="_blank"
                            rel="noopener noreferrer"
                         >LinkedIn</a>
-                        <a
-                            className="meta-linkitem"
-                            href={cv}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            CV
-                        </a>
                     </div>
                     <div className="contact-small">
                         {links.map((item, index) => (

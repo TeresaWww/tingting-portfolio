@@ -1,100 +1,156 @@
-import React from 'react';
-import "../css/All.css"
+import React from "react";
+import "../css/All.css";
+
+const projects = [
+    {
+        title: "FlySmart — Capstone",
+        description:
+            "Data analytics, machine learning, and user-centered product design for predictive airport planning.",
+        skills: [
+            "Data Analytics",
+            "Machine Learning",
+            "Predictive Modeling",
+            "Python",
+            "Data Cleaning",
+            "Feature Engineering",
+            "User-centered Product Design",
+        ],
+        type: "Capstone",
+        year: "",
+    },
+    {
+        title: "MyPlan Builder",
+        description:
+            "UI/UX design from research through wireframes, Figma prototypes, and usability testing.",
+        skills: [
+            "UI/UX Design",
+            "User Research",
+            "Wireframing",
+            "Prototyping",
+            "Figma",
+            "Information Architecture",
+            "Usability Testing",
+        ],
+        type: "UX",
+        year: "",
+    },
+    {
+        title: "Supply Chain Optimization",
+        description:
+            "Project management and analytics with stakeholders to improve processes and reporting.",
+        skills: [
+            "Project Management",
+            "Supply Chain Analytics",
+            "Process Optimization",
+            "Stakeholder Management",
+            "Business Analysis",
+        ],
+        type: "Analytics",
+        year: "",
+    },
+    {
+        title: "Sephora Database Project",
+        description:
+            "ETL, SQL/MongoDB modeling, and product analytics for a data pipeline and reporting layer.",
+        skills: [
+            "Database Management",
+            "ETL",
+            "SQL",
+            "MongoDB",
+            "Data Modeling",
+            "Data Cleaning",
+            "Product Analytics",
+            "NoSQL",
+            "Data Pipeline",
+        ],
+        type: "Data",
+        year: "",
+    },
+    {
+        title: "Spotify Recommendation System",
+        description:
+            "Content-based recommendations with KNN, feature engineering, preprocessing, and API integration.",
+        skills: [
+            "Machine Learning",
+            "Recommendation System",
+            "KNN",
+            "Content-based Filtering",
+            "Feature Engineering",
+            "Data Preprocessing",
+            "Python",
+            "API Integration",
+        ],
+        type: "ML",
+        year: "",
+    },
+    {
+        title: "TikTok / Social Media Analytics",
+        description:
+            "Marketing analytics dashboards and data storytelling from cleaned engagement metrics.",
+        skills: [
+            "Data Visualization",
+            "Data Cleaning",
+            "Marketing Analytics",
+            "Dashboarding",
+            "Engagement Metrics",
+            "Data Storytelling",
+        ],
+        type: "Analytics",
+        year: "",
+    },
+    {
+        title: "Daily Mood App",
+        description:
+            "Full-stack wellness app with React, Node.js, auth, and CRUD journaling flows.",
+        skills: [
+            "Full-stack Development",
+            "Frontend Development",
+            "Backend Development",
+            "React",
+            "Node.js",
+            "Database Design",
+            "User Authentication",
+            "CRUD Operations",
+            "Wellness Tech",
+        ],
+        type: "Full-stack",
+        year: "",
+    },
+];
 
 function News() {
-    const news =[
-        {
-            time: "2026.03",
-            content: <>Co-authored <a href="#clayscape" className="news-ref">ClayScape</a> was accepted to DIS '26! Excited about our exploration in GenAI-supported ceramic fabrication.</>
-        },
-        {
-            time: "2026.03",
-            content: <>My first-authored paper <a href="#chinese" className="news-ref">"Re-Tell the Fortune so I Can Believe It"</a> was accepted to CSCW '26! Thrilled to share our findings on how Chinese communities engage with GenAI divination.</>
-        },
-        {
-            time: "2026.02",
-            content: <>Had the opportunity to serve as a reviewer for CHI '26 Poster, DIS '26 Paper, and DIS '26 Pictorial.</>
-        },
-        {
-            time: "2026.01",
-            content: <>I started an internship at Microsoft Research Asia (MSRA).</>
-        },
-        {
-            time: "2026.01",
-            content: <>Co-first authored <a href="#vistoria" className="news-ref">Vistoria</a> was accepted to CHI '26! Looking forward to presenting our work in Barcelona and catching up with friends there~</>
-        },
-        {
-            time: "2026.01",
-            content: <>Had the opportunity to serve as a reviewer for IUI '26.</>
-        },
-        {
-            time: "2025.11",
-            content: <>Had the opportunity to serve as a reviewer for TEI '26.</>
-        },
-        {
-            time: "2025.11",
-            content: <>Glad that 2 papers for CHI '26 have received R&R and entered the next round.</>
-        },
-        {
-            time: "2025.10",
-            content: <>Co-authored <a href="#emo" className="news-ref">EmotiCrafter</a> poster will be published at ICCV '25! Welcome to take a look.</>
-        },
-        {
-            time: "2025.10",
-            content: <>Co-authored <a href="#tuntun" className="news-ref">TunTun Diary</a> poster was accepted by SIGGRAPH Asia '25. Congrats to the TunTun Diary team!</>
-        },
-        {
-            time: "2025.08",
-            content: <>Served as a reviewer of 8 papers for NeurIPS 2025 Creative AI Track.</>
-        },
-        {
-            time: "2025.06",
-            content: <>A co-authored full paper <a href="#image" className="news-ref">"An Image of Ourselves in Our Minds"</a> was published by CSCW '25!</>
-        },
-        {
-            time: "2025.05",
-            content: <>Awarded an AI PhD offer via the SII Summer Camp at Shanghai Innovation Institution.</>
-        },
-        {
-            time: "2025.04",
-            content: <>Happy to attend CHI '25 in Yokohama, Japan. Feel free to reach out~</>
-        },
-        {
-            time: "2025.04",
-            content: <>First-authored workshop paper <a href="#brain" className="news-ref">Brain Cache</a> was accepted by CHI '25 Workshop GenAICHI.</>
-        },
-        {
-            time: "2024.11",
-            content: <>Awarded Outstanding Graduate Student Scholarship in Tongji University.</>
-        },
-        {
-            time: "2024.10",
-            content: <>Attended CHI Play '24 and presented my first-authored full paper <a href="#sketchar" className="news-ref">Sketchar</a>! Good job!</>
-        },
-    ]
-
-    const handleNewsRefClick = (e) => {
-        if (e.target.classList.contains('news-ref')) {
-            e.preventDefault();
-            const id = e.target.getAttribute('href').slice(1);
-            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
-
     return (
-        <div className="News" id="news">
-            <div className="card-title">News
-            </div>
-            <ul className="news-list" onClick={handleNewsRefClick}>
-                {news.map((item, index) => (
-                    <li key={index}>
-                        <div className="news-time">{item.time}</div>
-                        <div className="news-content">{item.content}</div>
-                    </li>
-                ))}
+        <section className="projects-archive" id="projects" aria-labelledby="projects-heading">
+            <h2 className="card-title" id="projects-heading">
+                Projects
+            </h2>
+            <div className="projects-archive__scroll">
+                <ul className="projects-archive__list">
+                    {projects.map((p) => {
+                        const meta = [p.type, p.year].filter(Boolean).join(" · ");
 
-            </ul>
-        </div>
+                        return (
+                            <li key={p.title}>
+                                <article className="project-card">
+                                    <div className="project-card__lead">
+                                        <h3 className="project-card__title">{p.title}</h3>
+                                        {meta ? (
+                                            <span className="project-card__meta">{meta}</span>
+                                        ) : null}
+                                    </div>
+                                    <p className="project-card__desc">{p.description}</p>
+                                    <ul className="project-card__tags" aria-label="Skills and tools">
+                                        {p.skills.map((s) => (
+                                            <li key={s}>{s}</li>
+                                        ))}
+                                    </ul>
+                                </article>
+                            </li>
+                        );
+                    })}
+                </ul>
+            </div>
+        </section>
     );
 }
 

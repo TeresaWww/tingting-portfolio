@@ -6,7 +6,7 @@ import Internship from './components/Internship';
 import Footer from './components/Footer';
 import './App.css';
 import "./css/All.css"
-import News from "./components/News.jsx";
+import Publications from "./components/Publications.jsx";
 import Visitor from "./components/Visitor.jsx";
 import Education from "./components/Education.jsx";
 import More from "./components/More.jsx";
@@ -29,9 +29,9 @@ function App() {
                 <div className="right-content">
                     <div style={{margin: "2rem"}}>
                         <About />
-                        <News />
                         <Education />
                         <Internship />
+                        <Publications />
                         <More />
                     </div>
                     <Visitor />

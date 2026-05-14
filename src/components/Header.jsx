@@ -4,9 +4,9 @@ import logo from "../assets/logo.png";
 
 const NAV = [
     { id: "about", label: "About" },
-    { id: "news", label: "News" },
     { id: "education", label: "Education" },
     { id: "internship", label: "Experience" },
+    { id: "projects", label: "Projects" },
     { id: "more", label: "More" },
 ];
 
