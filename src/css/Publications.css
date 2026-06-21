@@ -114,8 +114,10 @@
 }
 
 .venue-tag.workshop {
-    background-color: #ddbeff;
-    
+    background-color: rgba(248, 249, 251, 0.95);
+    border: 1.5px solid #000080;
+    color: #000080;
+    box-shadow: none;
 }
 .venue-tag.thesis {
     background-color: #cee8c9;

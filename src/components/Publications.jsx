@@ -3,7 +3,7 @@ import "../css/Publications.css";
 
 import flow_img from "../assets/paper_image/flow.png";
 import capace_img from "../assets/paper_image/capace.png";
-import image_img from "../assets/paper_image/image.png";
+import fashion_supply_chain_img from "../assets/paper_image/fashion-supply-chain.png";
 import sephora_analysis_img from "../assets/paper_image/sephora-analysis.png";
 import tuntun_img from "../assets/paper_image/tuntun.png";
 import carbon_img from "../assets/paper_image/carbon.png";
@@ -59,7 +59,7 @@ const publications = [
         authors: [{ name: "Stakeholders" }],
         venues: [{ name: "Product Management", type: "workshop" }],
         links: { msg: "Stakeholders — materials on request." },
-        image: image_img,
+        image: fashion_supply_chain_img,
         tags: [
             "Project Management",
             "Supply Chain Analytics",
